@@ -1,6 +1,6 @@
 .jumbotron {
     background:black;
-    opacity: 75%;
+    opacity: 80%;
     color: rgb(56, 216, 128);
     font-family: 'Righteous', cursive;
 }
@@ -11,8 +11,29 @@
 } */
 
 img{
-    box-shadow: 0 0px 30px 10px rgb(58, 163, 140);
+    box-shadow: 0 0px 30px 10px rgb(18, 19, 19);
     border: 2px solid transparent;
     border-radius: 15px;
+    width: 304px;
+    height: 304px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+    
 }
+
+img:hover{
+    opacity: 75%;
+    margin-top: 10px;
+}
+
+.card{
+    background-color: black;
+    opacity: 80%;
+    color:rgb(56, 216, 128);
+    border-radius: 12px;
+    margin-right: 200px;
+}
+
+  
 

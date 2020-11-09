@@ -39,6 +39,7 @@
 
         </div>
     </div>
+    <!-- added a background image, couldnt figure out how to do this externally because it didnt work so i did it inline instead -->
     <style id="background">
         body {
           background-image: url('./assets/images/leaves.jpg');
@@ -49,25 +50,37 @@
         }
         </style>
 
+<!-- containers divided into one row with 3 columns holding all of the projects for this class -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-4" >
+            <div class="col-sm-4" id="projLink">
+                <div class="card text-center">
                <h2>Project 1</h2>
+            </div>
             </br> 
-               <img src="https://via.placeholder.com/300" alt="placeholder for project 1">
+            <!-- linking the first project via href so that when the user hovers over the image it is responsive and has a click function -->
+            <a href="https://maryamc.github.io/LyricFinder/"> <img src="./assets/images/LyricFinder.png" id="lyricFinder"
+               alt="image of project 1 which is called Lyric Finder"> </a>
             
             </div>
-            <div class="col-sm-4" >
+
+            <!-- project 2 and 3 will be updated later on -->
+            <div class="col-sm-4" id="projLink">
+                <div class="card text-center">
                 <h2>Project 2</h2>
+            </div>
             </br>
-                <img src="https://via.placeholder.com/300" alt="placeholder for project 2">
+                <img src="./assets/images/comingsoon.jpg" alt="placeholder for project 2">
             
           
             </div>
+            
             <div class="col-sm-4" id="projLink">
+                <div class="card text-center">
                 <h2>Project 3</h2>
+            </div>
             </br>
-                <img src="https://via.placeholder.com/300" alt="placeholder for project 3">
+                <img src="./assets/images/comingsoon.jpg" alt="placeholder for project 3">
             
             
             </div>
