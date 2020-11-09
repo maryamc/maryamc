@@ -3,7 +3,8 @@ body{
     background: linear-gradient(90deg, rgba(53,130,75,1) 0%, rgba(62,230,97,1) 47%, rgba(45,254,204,1) 100%);
 }
 .jumbotron {
-    background-color: rgb(44, 44, 44);
+    background:black;
+    opacity: 75%;
     color: rgb(56, 216, 128);
     font-family: 'Righteous', cursive;
 }
